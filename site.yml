@@ -1,4 +1,4 @@
 ---
 # file: site.yml
-- import_playbook: workstation.yml
+#- import_playbook: workstation.yml
 - import_playbook: kittystor.yml

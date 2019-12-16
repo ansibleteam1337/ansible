@@ -1,8 +1,10 @@
 ---
+# file: kittystor.yml
 - hosts: storage
   sudo: true
+
   roles:
-    - docker
-    - mergerfs
-    - snapraid
-    - kittystor
+    - caranova.docker
+    - caranova.mergerfs
+    - caranova.snapraid
+    - caranova.kittystor-base
