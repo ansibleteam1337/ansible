@@ -1,4 +1,4 @@
-# Ansible Notes
+# Ansible Notes: Notes Edition
 This is just a place for me to keep some notes as I'm learning some technologies. Here: 
 **Ansible**
 ## Playbooks
