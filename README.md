@@ -7,7 +7,7 @@ All of these will be running from a minimal base-os installation which will like
 
 Although not a strict rule, this project aims to only utlize FOSS for primary operations with the major exception being the Windows 10 VM.
 
-List of software is tentative:
+List of software is tentative (and incomplete):
 
 | Software / Service | Function                    | License        |
 | ------------------ | --------------------------- | -------------- |
@@ -33,8 +33,9 @@ _This section will be expanded upon later as more features of it are decided._
 
 ### TODO
 
-* Create the `kittystor` _Ansible Playbook_ for housing the snapRAID and MergerFS configuration.
-* Create the `base` _Ansible Playbook_ for the other hosts/VM guests to run off of while maintaining an immutable environment.
+* Back up `Lapkitty` to a raw iamge file and install `Windows 10 Professional` and `Fedora 31` 
+* Create the `kittystor` _Ansible Playbook_ for creating the snapRAID and MergerFS configuration.
+* Create the `base` _Ansible Playbook_ for preparing and bootstraping the bare-metal server configuration
 * Back up up and reinstall Windows 10 as both KVM guest using _Vagrant_ as well as possible dual-boot option.
 * Create the `workstation` _Ansible Playbook_ and start messing around with various window managers, and setting up home-base.
 * Create script for passing off GPU to whichever VM guest is running with preference for Windows 10 if both are running.

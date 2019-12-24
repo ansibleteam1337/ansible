@@ -1,7 +1,7 @@
 ---
 # file: workstation.yml
 
-- hosts: workstation
+- hosts: all
 # Step 1: install fedora
 #
 

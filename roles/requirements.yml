@@ -1,0 +1,13 @@
+---
+- src: robertdebock.bootstrap
+  name: bootstrap
+- src: robertdebock.docker
+  name: docker
+- src: robertdebock.python_pip
+  name: python_pip
+- src: robertdebock.buildtools
+  name: buildtools
+- src: robertdebock.core_dependencies
+  name: core_dependencies
+- src: robertdebock.vagrant
+  name: vagrant
