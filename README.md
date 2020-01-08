@@ -39,3 +39,9 @@ _This section will be expanded upon later as more features of it are decided._
 * Back up up and reinstall Windows 10 as both KVM guest using _Vagrant_ as well as possible dual-boot option.
 * Create the `workstation` _Ansible Playbook_ and start messing around with various window managers, and setting up home-base.
 * Create script for passing off GPU to whichever VM guest is running with preference for Windows 10 if both are running.
+
+### Extra Notes
+
+i915 module params to look for
+* enable_gvt: Enable support for Intel GVT-g graphics virtualization host support
+* 
