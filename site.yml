@@ -1,2 +1,8 @@
 ---
 # file: site.yml
+- name: ensure initial state 
+  hosts: all
+  become_user: root
+
+  roles:
+    -  caranova.base_os

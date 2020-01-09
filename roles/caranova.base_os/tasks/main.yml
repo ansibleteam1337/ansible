@@ -1,2 +1,11 @@
 ---
 # tasks file for caranova.base_os
+- name: dnf update -y
+  dnf:
+    name: '*'
+    state: latest
+
+- name: ensure mothership packages are installed
+  dnf:
+    name: '{{ packages }}'
+    state: present 

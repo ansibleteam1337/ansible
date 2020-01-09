@@ -1,2 +1,8 @@
 ---
 # vars file for caranova.base_os
+packages:
+    - ansible
+    - git
+    - docker
+    - vagrant 
+    - '@virtualization'
