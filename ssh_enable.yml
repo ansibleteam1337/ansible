@@ -1,8 +1,0 @@
----
-# file: ssh_enable
-- name: ensure the host has SSH enabled
-  hosts: localhost
-  become_user: root
-
-  tasks:
-  - name: 

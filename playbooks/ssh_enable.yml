@@ -1,0 +1,18 @@
+---
+# file: ssh_enable
+- name: ensure the host has SSH enabled
+  hosts: localhost
+  become_user: root
+
+  tasks:
+  - name: ensure openssh-server is installed
+    dnf:
+      name: openssh-server
+      state: present
+
+  - name: enables ssh service and starts it if not already enabled and started.
+    systemd:
+        name: sshd.service
+        enabled: yes 
+        state: started 
+        
