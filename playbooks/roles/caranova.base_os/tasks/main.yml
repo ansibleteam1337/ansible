@@ -9,3 +9,9 @@
   dnf:
     name: '{{ packages }}'
     state: present 
+
+- name: grab the dotfiles when they exist one day
+  debug:
+      msg: "[TODO] Grab wm and other stuff"  # not required. The customized message that is printed. If omitted, prints a generic message.
+      var: undefined # not required. A variable name to debug.  Mutually exclusive with the 'msg' option.
+      verbosity: 0 # not required. A number that controls when the debug is run, if you set to 3 it will only run debug when -vvv or above
