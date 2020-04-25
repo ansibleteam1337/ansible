@@ -3,6 +3,11 @@
 packages:
     - ansible
     - git
-    - docker
-    - vagrant 
+    - podman #I Can't Believe It's Not Docker
+    - podman-docker # Now you _CAN'T_  Docker
+    - vagrant
+    - gdm # TODO REMOVE
+    # TODO fix lightdm-autologin-greeter
+    - i3
     - '@virtualization'
+# TODO lutris, steam, keybase
